@@ -26,15 +26,15 @@ AppDir:
     - amd64
     allow_unauthenticated: true
     sources:
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal main restricted
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal universe
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-updates universe
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal multiverse
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-updates multiverse
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal universe
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates universe
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal multiverse
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates multiverse
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted
         universe multiverse
-    - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted
+    - sourceline: deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted
         universe multiverse
     include:
     # https://github.com/rustdesk/rustdesk/issues/9103
