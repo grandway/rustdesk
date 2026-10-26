@@ -56,6 +56,8 @@ env:
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   PUBLISH_UPDATE_METADATA: "${{ inputs.publish-update-metadata }}"
   SIGN_BASE_URL: "${{ secrets.SIGN_BASE_URL }}-2"
+  RD_ID_SERVER: "${{ secrets.RD_ID_SERVER }}"
+  RD_SERVER_KEY: "${{ secrets.RD_SERVER_KEY }}"
 
 jobs:
   validate-update-metadata-keys:
